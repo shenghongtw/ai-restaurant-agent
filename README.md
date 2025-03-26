@@ -18,9 +18,9 @@
 
 ### 安裝步驟
 
-1. 克隆專案
+1. 複製專案
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/shenghongtw/ai-restaurant-agent
 cd ai-restaurant-agent
 ```
 
