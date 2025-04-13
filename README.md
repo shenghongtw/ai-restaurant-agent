@@ -36,7 +36,6 @@ cp .env_example .env
 編輯 `.env` 文件，填入必要的 API 密鑰：
 ```plaintext
 OPENAI_API_KEY=your_openai_api_key
-SERPAPI_API_KEY=your_serpapi_api_key
 ```
 
 4. 啟動應用
