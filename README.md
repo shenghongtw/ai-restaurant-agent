@@ -18,17 +18,14 @@
 - Python 3.11+
 - Docker (可選)
 
-### 安裝步驟
+### 安裝步驟(使用docker)
 
-1. 複製專案
+1.安裝docker
+
+2. 複製專案
 ```bash
 git clone https://github.com/shenghongtw/ai-restaurant-agent
 cd ai-restaurant-agent
-```
-
-2. 安裝依賴
-```bash
-poetry install
 ```
 
 3. 配置環境變量
@@ -46,7 +43,7 @@ OPENAI_API_KEY=your_openai_api_key
 poetry run streamlit run ai_agent/app.py
 
 # 或使用 Docker
-docker-compose up
+docker-compose up -d
 ```
 
 ## 🛠️ 技術架構
@@ -54,7 +51,7 @@ docker-compose up
 - **前端**：Streamlit
 - **後端**：Python FastAPI
 - **AI 模型**：OpenAI GPT
-- **數據處理**：LangGraph
+- **ai agent**：LangGraph
 - **容器化**：Docker
 
 ## 📝 使用示例
